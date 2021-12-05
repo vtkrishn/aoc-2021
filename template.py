@@ -1,14 +1,18 @@
-def part_2():
-    pass
+def part_2(data):
+    print(data)
 
-def part_1():
-    pass
+
+def part_1(data):
+    print(data)
 
 
 def parse(data):
-    pass
+    return data
+
 
 with open('inputs.txt', 'r') as fh:
-    data = fh.read().splitlines()
+    d = fh.read().splitlines()
+    data = parse(d)
 
-    processed_data = parse(data)
+    part_1(data)
+    part_2(data)

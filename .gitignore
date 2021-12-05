@@ -1,5 +1,6 @@
 venv
 create_day.sh
+inputs.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
