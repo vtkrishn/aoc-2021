@@ -10,7 +10,7 @@ def parse(data):
     return data
 
 
-with open('inputs.txt', 'r') as fh:
+with open('sample.txt', 'r') as fh:
     d = fh.read().splitlines()
     data = parse(d)
 
