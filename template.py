@@ -1,3 +1,6 @@
+import os
+import sys
+from collections import defaultdict, deque, Counter
 def part_2(data):
     print(data)
 
